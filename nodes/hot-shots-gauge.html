@@ -1,7 +1,7 @@
 <script type="text/javascript">
     RED.nodes.registerType('hot-shots-gauge', {
         category: 'function',
-        color: '#a6bbcf',
+        color: '#D8BFD8',
         defaults: {
             name: { value: "" },
             host: { value: "", required: true},
@@ -9,7 +9,7 @@
         },
         inputs: 1,
         outputs: 0,
-        icon: "file.png",
+        icon: "font-awesome/fa-thermometer-full",
         label: function () {
             return this.name || "hot-shots-gauge";
         }
