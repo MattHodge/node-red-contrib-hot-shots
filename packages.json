@@ -1,0 +1,13 @@
+{
+    "name": "node-red-contrib-hot-shots",
+    "version": "0.0.1",
+    "description": "Nodes that wrap hot-shots to provide methods to send statsd metrics from node-red.",
+    "dependencies": {
+        "hot-shots": "8.3.x"
+    },
+    "node-red": {
+        "nodes": {
+            "sample": "nodes/hot-shots-gauge.js"
+        }
+    }
+}
