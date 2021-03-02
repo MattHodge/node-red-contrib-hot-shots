@@ -3,11 +3,19 @@
     "version": "0.0.1",
     "description": "Nodes that wrap hot-shots to provide methods to send statsd metrics from node-red.",
     "dependencies": {
-        "hot-shots": "8.3.x"
+        "hot-shots": "^8.3.0"
+    },
+    "devDependencies": {
+        "mocha": "^8.3.0",
+        "node-red": "^1.2.9",
+        "node-red-node-test-helper": "^0.2.7"
     },
     "node-red": {
         "nodes": {
             "sample": "nodes/hot-shots-gauge.js"
         }
+    },
+    "scripts": {
+        "test": "mocha \"test/**/*_spec.js\""
     }
 }
