@@ -1,0 +1,6 @@
+version: "3.9"
+services:
+  nodered:
+    ports:
+      - "1880:1880/tcp"
+    image: tilt.dev/nodered
