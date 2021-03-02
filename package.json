@@ -16,7 +16,8 @@
     "node-red": {
         "nodes": {
             "hot-shots-gauge": "nodes/hot-shots-gauge.js",
-            "hot-shots-increment": "nodes/hot-shots-increment.js"
+            "hot-shots-increment": "nodes/hot-shots-increment.js",
+            "hot-shots-statsd-client": "nodes/hot-shots-statsd-client.js"
         }
     },
     "scripts": {
