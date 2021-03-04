@@ -1,9 +1,14 @@
 {
     "name": "node-red-contrib-hot-shots",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "description": "StatsD metrics for Node-RED. Nodes wrap the hot-shots javascript library.",
     "keywords": [
         "node-red"
+        "statsd",
+        "datadog",
+        "dogstatsd",
+        "metrics",
+        "telegraph"
     ],
     "dependencies": {
         "hot-shots": "^8.3.0"
