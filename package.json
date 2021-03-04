@@ -1,7 +1,7 @@
 {
     "name": "node-red-contrib-hot-shots",
-    "version": "0.0.5",
-    "description": "Nodes that wrap hot-shots to provide methods to send statsd metrics from node-red.",
+    "version": "0.0.6",
+    "description": "StatsD metrics for Node-RED. Nodes wrap the hot-shots javascript library.",
     "keywords": [
         "node-red"
     ],
