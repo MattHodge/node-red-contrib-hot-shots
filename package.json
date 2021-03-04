@@ -3,7 +3,7 @@
     "version": "0.0.7",
     "description": "StatsD metrics for Node-RED. Nodes wrap the hot-shots javascript library.",
     "keywords": [
-        "node-red"
+        "node-red",
         "statsd",
         "datadog",
         "dogstatsd",
